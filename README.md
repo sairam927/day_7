@@ -21,10 +21,10 @@ docker ps
 # Access Dashboard
 http://localhost:19999
 # Monitored Metrics
-CPU Usage
-Memory Usage
-Disk I/O
-Network Traffic
-Docker Containers
-System Overview
+CPU Usage,
+Memory Usage,
+Disk I/O,
+Network Traffic,
+Docker Containers,
+System Overview.
 # The above are the screenshot of the running Netdata Dashboard
