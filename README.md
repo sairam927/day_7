@@ -5,9 +5,9 @@ To install **Netdata** using Docker and visualize real-time **system and applica
 **Netdata** – For system monitoring and visualization
 **Windows PowerShell** – For executing Docker commands
 # commands
-docker --version
-docker ps
-docker run -d --name=netdata `
+[docker --version],
+[docker ps].
+[docker run -d --name=netdata `
   -p 19999:19999 `
   --cap-add SYS_PTRACE `
   --security-opt apparmor=unconfined `
@@ -16,8 +16,8 @@ docker run -d --name=netdata `
   -v netdatacache:/var/cache/netdata `
   -v /proc:/host/proc:ro `
   -v /sys:/host/sys:ro `
-  netdata/netdata
-docker ps
+  netdata/netdata],
+[docker ps]
 # Access Dashboard
 http://localhost:19999
 # Monitored Metrics
